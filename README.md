@@ -9,10 +9,7 @@ This repository contains the code for a Natural Language Processing (NLP) classi
 - [Dataset](#dataset)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Model Training](#model-training)
 - [Results](#results)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Dataset
@@ -30,52 +27,21 @@ Make sure you have the following dependencies installed:
 - Pandas
 - Scikit-learn
 - NLTK (Natural Language Toolkit)
-- TensorFlow (or any other preferred deep learning library)
-
-Install dependencies using:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/yelp-review-classification.git
+git clone https://github.com/MustafaBanatwala04/Yelp-Review-Classification-Model/edit/main/README.md
 cd yelp-review-classification
 ```
 
 2. Install the required dependencies as mentioned in the [Dependencies](#dependencies) section.
 
-## Usage
-
-To use the pre-trained model for classification, you can run the following command:
-
-```bash
-python predict.py "Your review text goes here."
-```
-
-Replace "Your review text goes here." with the actual text you want to classify.
-
-## Model Training
-
-If you want to train the model from scratch or fine-tune it on a different dataset, you can use the provided Jupyter notebook:
-
-```bash
-jupyter notebook Model_Training.ipynb
-```
-
-Follow the instructions in the notebook to train and save the model.
-
 ## Results
 
-The model achieves [insert accuracy/precision/recall/F1-score] on the test set. For more details, refer to the evaluation metrics in the notebook or script used for training.
-
-## Contributing
-
-Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md) to contribute to this project.
+The model achieves a precision of 92%, recall of 0.93 and a F1-score of 0.92 on the test set. For more details, refer to the evaluation metrics in the notebook or script used for training.
 
 ## License
 
